@@ -58,13 +58,13 @@ if data_mode == "Stocks (sample)":
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 
 if data_mode == "COVID-19 (sample)":
-    df = load_csv(os.path.join(DATA_DIR, "covid_sample.csv"))
+    df = load_csv(os.path.join("covid_sample.csv"))
     domain = "covid"
 elif data_mode == "Stocks (sample)":
-    df = load_csv(os.path.join(DATA_DIR, "stocks_sample.csv"))
+    df = load_csv(os.path.join("stocks_sample.csv"))
     domain = "stocks"
 elif data_mode == "Sports (sample)":
-    df = load_csv(os.path.join(DATA_DIR, "sports_sample.csv"))
+    df = load_csv(os.path.join("sports_sample.csv"))
     domain = "sports"
 else:
     upload = st.sidebar.file_uploader("Upload a CSV", type=["csv"])
