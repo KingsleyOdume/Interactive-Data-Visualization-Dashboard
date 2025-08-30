@@ -86,13 +86,14 @@ Download filtered data
 ☁️ Deployment (Streamlit Cloud)
 Push this repo to GitHub
 Go to Streamlit Community Cloud → Deploy app
-Set Main file path to app/streamlit_app.py
+Set Main file path to app/app.py
 Add required secrets only if using live stock fetch (optional)
 🗺️ Roadmap
 
 
 👤 Author
 Kingsley Odume
-🌍 Portfolio: https://kingsleyodume.online
-💻 GitHub: https://github.com/KingsleyOdume
-🔗 LinkedIn: https://linkedin.com/in/kingsleyodume
+🌍 Portfolio: [Detail Link](https://kingsleyodume.online)
+💻 GitHub: [Repo](https://github.com/KingsleyOdume)
+🔗 LinkedIn: [My LinkedIn](https://linkedin.com/in/kingsleyodume)
+
